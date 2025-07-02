@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>About</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="script.js"></script>
+</head>
+<body class="bg-white text-gray-800">
+  <div class="max-w-3xl mx-auto p-6 animate-fade-in">
+    <a href="index.html" class="text-blue-500 underline">&larr; Kembali</a>
+    <h1 class="text-3xl font-bold mt-4 mb-2">Tentang Saya</h1>
+    <p class="text-gray-600 leading-relaxed">
+      Halo! Saya adalah mahasiswa Manajemen Pendidikan Islam yang memiliki ketertarikan dalam dunia teknologi dan pendidikan. 
+      Saya telah menempuh berbagai mata kuliah baik dalam bidang manajemen, pendidikan, hingga teknologi informasi seperti Sistem Informasi Manajemen. 
+      Melalui website ini, saya membagikan catatan dan ringkasan dari mata kuliah yang telah saya pelajari untuk membantu teman-teman belajar lebih mudah.
+    </p>
+  </div>
+</body>
+</html>
+<script>
+  // Tailwind CSS configuration
+  tailwind.config = {
+    theme: {
+      extend: {
+        animation: {
+          'fade-in': 'fadeIn 0.5s ease-in-out',
+        },
+        keyframes: {
+          fadeIn: {
+            '0%': { opacity: '0' },
+            '100%': { opacity: '1' },
+          },
+        },
+      },
+    },
+  };
