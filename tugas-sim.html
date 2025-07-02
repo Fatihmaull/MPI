@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Daftar Tugas SIM</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="script.js"></script>
+  <style>
+    .animate-fade-in {
+      opacity: 0;
+      animation: fadeIn 0.8s forwards;
+    }
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 p-6 flex flex-col min-h-screen">
+  <div class="max-w-4xl mx-auto animate-fade-in flex-grow">
+    <a href="index.html" class="text-blue-500 underline">&larr; Kembali ke Beranda</a>
+
+    <h1 class="text-3xl font-bold mt-4 mb-6 text-center">Daftar Tugas Mata Kuliah SIM</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <!-- Tugas 1 -->
+      <a href="tugas-pdf/tugas1.pdf" target="_blank" class="flex items-center bg-white rounded shadow hover:bg-blue-50 p-4 transition">
+        <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF" class="w-10 h-10 mr-4">
+        <span class="text-blue-700 font-medium hover:underline">Tugas 1 - Pendahuluan Sistem Informasi</span>
+      </a>
+
+      <!-- Resume -->
+      <a href="tugas-pdf/resume.pdf" target="_blank" class="flex items-center bg-white rounded shadow hover:bg-blue-50 p-4 transition">
+        <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF" class="w-10 h-10 mr-4">
+        <span class="text-blue-700 font-medium hover:underline">Resume Materi SIM</span>
+      </a>
+
+      <!-- UTS -->
+      <a href="tugas-pdf/uts.pdf" target="_blank" class="flex items-center bg-white rounded shadow hover:bg-blue-50 p-4 transition">
+        <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF" class="w-10 h-10 mr-4">
+        <span class="text-blue-700 font-medium hover:underline">UTS - Sistem Informasi Manajemen</span>
+      </a>
+
+      <!-- Tugas Mandiri -->
+      <a href="tugas-pdf/tugas mandiri.pdf" target="_blank" class="flex items-center bg-white rounded shadow hover:bg-blue-50 p-4 transition">
+        <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF" class="w-10 h-10 mr-4">
+        <span class="text-blue-700 font-medium hover:underline">Tugas Mandiri - Studi Kasus SIM</span>
+      </a>
+
+      <!-- Peran SIM -->
+      <a href="tugas-pdf/peransim.pdf" target="_blank" class="flex items-center bg-white rounded shadow hover:bg-blue-50 p-4 transition">
+        <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF" class="w-10 h-10 mr-4">
+        <span class="text-blue-700 font-medium hover:underline">Peran SIM dalam Pengambilan Keputusan</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 py-4 text-center text-sm text-gray-500 mt-12">
+    &copy; 2025 Ardhica Page! All rights reserved.
+  </footer>
+</body>
+</html>
