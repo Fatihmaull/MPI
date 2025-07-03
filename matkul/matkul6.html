@@ -1,21 +1,52 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Magang Perusahaan</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="../script.js"></script>
+  <style>
+    .animate-fade-in {
+      opacity: 0;
+      animation: fadeIn 1s forwards;
+    }
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+  </style>
 </head>
+<body class="bg-gray-50 text-gray-800 p-6 flex flex-col min-h-screen">
+  <div class="max-w-4xl mx-auto animate-fade-in flex-grow">
+    <a href="../index.html" class="text-blue-500 underline">&larr; Kembali ke Beranda</a>
+    <h1 class="text-3xl font-bold mt-4 mb-4">Mata Kuliah: Magang Perusahaan</h1>
 
-<body class="bg-white text-gray-800 p-6">
-  <div class="max-w-4xl mx-auto animate-fade-in">
-    <a href="../index.html" class="text-blue-500 underline">&larr; Kembali</a>
+    <p class="mb-4">
+      <strong>Magang Perusahaan</strong> merupakan program pembelajaran berbasis pengalaman (experiential learning) yang memberikan kesempatan kepada mahasiswa untuk terjun langsung ke dunia kerja, khususnya di perusahaan atau lembaga profesional.
+    </p>
+    <p class="mb-4">
+      Dalam kegiatan magang, mahasiswa mengamati, mempelajari, dan turut berkontribusi pada sistem manajemen, administrasi, serta proses kerja di dunia nyata. Hal ini bertujuan untuk mengasah keterampilan profesional, sikap kerja, serta integritas dalam lingkungan kerja yang sesungguhnya.
+    </p>
+    <p class="mb-4">
+      Magang juga menjadi wahana refleksi antara teori yang diperoleh di kampus dan praktik yang terjadi di lapangan, sehingga mahasiswa mampu menyusun laporan dan evaluasi berdasarkan pengalaman kerja secara objektif dan ilmiah.
+    </p>
 
-<body class="bg-gray-50 text-gray-800 p-6">
-  <div class="max-w-3xl mx-auto">
-    <h1 class="text-3xl font-bold mt-5 mb-4">Magang Perusahaan</h1>
-    <p>Magang perusahaan merupakan kegiatan pembelajaran langsung di dunia kerja yang bertujuan memberikan pengalaman praktis kepada mahasiswa. Dalam mata kuliah ini, mahasiswa ditempatkan di perusahaan atau institusi untuk mengaplikasikan teori yang telah dipelajari di kelas.</p>
-    <p>Selama magang, mahasiswa melakukan observasi, membantu pekerjaan staf, serta menyelesaikan tugas-tugas nyata yang berhubungan dengan bidang studinya. Mereka juga dilatih untuk mengembangkan etos kerja, komunikasi profesional, dan manajemen waktu.</p>
-    <p>Magang menjadi jembatan penting antara dunia akademik dan dunia kerja. Dengan pengalaman magang, mahasiswa lebih siap menghadapi tantangan karier setelah lulus dan memiliki nilai tambah dalam pencarian kerja.</p>
+    <h2 class="text-xl font-semibold mt-6 mb-2">Tujuan Pembelajaran:</h2>
+    <ul class="list-disc list-inside text-gray-700 space-y-1">
+      <li>Menumbuhkan etika dan profesionalisme dalam dunia kerja</li>
+      <li>Meningkatkan kemampuan observasi dan pelaporan</li>
+      <li>Mengembangkan keterampilan kerja sesuai bidang studi</li>
+      <li>Menjalin relasi dan pengalaman kerja yang relevan</li>
+    </ul>
+
+    <h2 class="text-xl font-semibold mt-6 mb-2">Output:</h2>
+    <ul class="list-disc list-inside text-gray-700 space-y-1">
+      <li>Laporan magang yang disusun sistematis dan reflektif</li>
+      <li>Penilaian dari pembimbing lapangan dan dosen</li>
+      <li>Presentasi hasil pengalaman magang</li>
+    </ul>
   </div>
+  <footer class="bg-gray-100 py-4 text-center text-sm text-gray-500 mt-12">
+    &copy; 2025 Ardhica Page! All rights reserved.
+  </footer>
 </body>
 </html>
